@@ -97,7 +97,7 @@ public class Voiture {
 	 * @param out l'endroit où imprimer (ex: System.out)
 	 */
 	public void imprimeStationnements(PrintStream out) {
-		System.out.print(garagesVisites());
+		System.out.println(garagesVisites());
 	}
 
 }
